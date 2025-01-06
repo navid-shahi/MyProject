@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Project</title>
+    <link rel="stylesheet" href="/assets/materialize/css/materialize.min.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/util.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <!-- ------Navbar Section------Start------ -->
+    <nav class="white z-depth-0 top_navbar">
+      <div class="nav-wrapper">
+        <a href="#!" class="blue-text hide-on-med-and-up">User Managment</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+          ><i class="material-icons">
+            <i class="material-icons blue-text">menu </i></i
+          ></a
+        >
+        <ul class="hide-on-med-and-down">
+          <li><a href="/" class="blue-text">Home</a></li>
+          <li><a href="/users.html" class="blue-text">User Managment</a></li>
+          <li><a href="https://codeyad.com" class="blue-text">Codeyad</a></li>
+          <li><a href="https://google.com" class="blue-text">Google</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img src="/assets/images/web-designer.jpg" class="w-full" />
+          </div>
+          <a><img class="circle" src="/assets/images/Image01.JPG" /></a>
+          <a><span class="white-text name">Navid Shahi</span></a>
+          <a><span class="white-text email">navid.shahi2000@gmail.com</span></a>
+        </div>
+      </li>
+      <li>
+        <a href="https://ir.linkedin.com/in/navid-shahi-b09ab1123"
+          ><i class="material-icons">link</i>Linkedin</a
+        >
+      </li>
+      <li>
+        <a href="https://telegram.me/Navid_shahi"
+          ><i class="material-icons">link</i>Telegram</a
+        >
+      </li>
+      <li><div class="divider"></div></li>
+      <li><a class="subheader">Page</a></li>
+      <li><a class="waves-effect" href="/">Home</a></li>
+      <li><a class="waves-effect" href="/users.html">User</a></li>
+    </ul>
+    <!-- ------Navbar Section------End------ -->
+
+    <!-- ------Content Section ------Start------ -->
+ <section id="top_actions_section">
+    <!-- ------Add Button------ -->
+     <div class=" p-l-10 p-r-10 p-t-10">
+        <button class="waves-effect waves-light btn blue darken-2 p-l-30 p-r-30 w-full rounded_pill flex-c">
+            <i class="material-icons m-r-5">add</i>
+            Add User
+        </button>
+     </div>
+    <!-- ------Search Section------ -->
+    <div class="row">
+        <div class="input-field col s12">
+          <input id="search" type="text" class="validate">
+          <label for="search">
+          <i class="material-icons pos-relative top-7">search</i>
+          Search
+        </label>
+        </div>
+ </section>
+    <!-- ------Content section ------End------ -->
+    <script src="/assets/materialize/js/materialize.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>

@@ -12,22 +12,20 @@
       rel="stylesheet" />
   </head>
   <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ducimus pariatur eligendi assumenda tempora quae quidem tempore, iusto atque provident.</p>
-
     <!-- ------Navbar section------Start------ -->
-    <nav class="white z-depth-0">
+    <nav class="white z-depth-0 top_navbar">
       <div class="nav-wrapper">
-        <a href="#!" class="blue-text">Home</a>
+        <a href="#!" class="blue-text hide-on-med-and-up">Home</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"
           ><i class="material-icons">
             <i class="material-icons blue-text">menu </i></i
           ></a
         >
-        <ul class="right hide-on-med-and-down">
-          <li><a href="sass.html">Sass</a></li>
-          <li><a href="badges.html">Components</a></li>
-          <li><a href="collapsible.html">Javascript</a></li>
-          <li><a href="mobile.html">Mobile</a></li>
+        <ul class="hide-on-med-and-down">
+          <li><a href="/" class="blue-text">Home</a></li>
+          <li><a href="/users.html" class="blue-text">User Managment</a></li>
+          <li><a href="https://codeyad.com" class="blue-text">Codeyad</a></li>
+          <li><a href="https://google.com" class="blue-text">Google</a></li>
         </ul>
       </div>
     </nav>
@@ -36,31 +34,47 @@
       <li>
         <div class="user-view">
           <div class="background">
-            <img src="/assets/images/web-designer.jpg" class="w-full"/>
+            <img src="/assets/images/web-designer.jpg" class="w-full" />
           </div>
-          <a href="#user"><img class="circle" src="/assets/images/Image01.JPG"/></a>
-          <a href="#name"><span class="white-text name">Navid Shahi</span></a>
-          <a href="#email"><span class="white-text email">navid.shahi2000@gmail.com</span></a>
+          <a><img class="circle" src="/assets/images/Image01.JPG" /></a>
+          <a><span class="white-text name">Navid Shahi</span></a>
+          <a><span class="white-text email">navid.shahi2000@gmail.com</span></a>
         </div>
       </li>
       <li>
-        <a href="https://ir.linkedin.com/in/navid-shahi-b09ab1123"><i class="material-icons">link</i>Linkedin</a>
+        <a href="https://ir.linkedin.com/in/navid-shahi-b09ab1123"
+          ><i class="material-icons">link</i>Linkedin</a
+        >
       </li>
-      <li><a href="https://telegram.me/Navid_shahi"><i class="material-icons">link</i>Telegram</a></li>
+      <li>
+        <a href="https://telegram.me/Navid_shahi"
+          ><i class="material-icons">link</i>Telegram</a
+        >
+      </li>
       <li><div class="divider"></div></li>
       <li><a class="subheader">Page</a></li>
-      <li><a class="waves-effect" href="#!">Home</a></li>
-      <li><a class="waves-effect" href="#!">User</a></li>
+      <li><a class="waves-effect" href="/">Home</a></li>
+      <li><a class="waves-effect" href="/users.html">User</a></li>
     </ul>
     <!-- ------Navbar section------End------ -->
 
-<!-- ------Home section ------Start------ -->
-<section class="flex-c-m flex-col sizefull p-r-20 p-l-20 p-t-100">
-  <img src="/assets/images/codeyad.png" class="w-full max-w-200">
-  <a href="https://google.com" class="waves-effect waves-light btn blue darken-3 w-full max-w-250 m-t-10 rounded_pill">Programming Tutorial</a>
-  <a href="/users.html" class="waves-effect waves-light btn blue darken-3 w-full max-w-250 m-t-10 rounded_pill">User Manager</a>
-</section>
- <!-- ------Home section ------End------ -->    
+    <!-- ------Home section ------Start------ -->
+    <section class="flex-c-m flex-col sizefull p-r-20 p-l-20 p-t-100">
+      <img
+        src="/assets/images/codeyad.png"
+        class="w-full max-w-200 filter_shadow" />
+      <a
+        href="https://google.com"
+        class="waves-effect waves-light btn blue darken-3 w-full max-w-250 m-t-10 rounded_pill"
+        >Programming Tutorial</a
+      >
+      <a
+        href="/users.html"
+        class="waves-effect waves-light btn blue darken-3 w-full max-w-250 m-t-10 rounded_pill"
+        >User Manager</a
+      >
+    </section>
+    <!-- ------Home section ------End------ -->
     <script src="/assets/materialize/js/materialize.min.js"></script>
     <script src="/assets/js/main.js"></script>
   </body>
