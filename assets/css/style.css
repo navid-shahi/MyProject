@@ -1,23 +1,53 @@
-@media(min-width:600px){
-    .top_navbar{
+@media(min-width:600px) {
+    .top_navbar {
         box-shadow: 0 0 50px gray !important;
     }
 
-    #top_actions_section{
+    #top_actions_section {
         display: flex !important;
         align-items: center !important;
     }
 }
 
-.users_list_item.active .users_list_arrow_icon{
+.users_list_item.active .users_list_arrow_icon {
     transform: rotate(180deg);
 }
-.users_list_item.active , .users_list_item.active .collapsible-header{
+
+.users_list_item.active,
+.users_list_item.active .collapsible-header {
     background-color: rgba(190, 190, 190, 0.322);
 }
-table.highlight > tbody > tr:hover {
-    background-color: rgba(190, 190, 190, 0.489) ;
-  }
-  .container{
+
+table.highlight>tbody>tr:hover {
+    background-color: rgba(190, 190, 190, 0.489);
+}
+
+.container {
     width: 100%;
-  }
+}
+
+.add_user_modal_back {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.add_user_modal {
+    position: fixed;
+    height: 70vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 1000;
+    bottom: -70vh;
+}
+
+.add_user_modal.show {
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.571);
+    bottom: 0;
+}
