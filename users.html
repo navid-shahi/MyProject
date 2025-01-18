@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Project</title>
     <link rel="stylesheet" href="/assets/materialize/css/materialize.min.css" />
+    <link rel="stylesheet" href="/assets/materialize/css/materialize.rtl.css" />
     <link rel="stylesheet" href="/assets/css/style.css" />
     <link rel="stylesheet" href="/assets/css/util.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="/assets/images/N.ico"/>
   </head>
-  <body>
+  <body dir="rtl">
     <!-- ------Navbar Section------Start------ -->
     <nav class="white z-depth-0 top_navbar">
       <div class="nav-wrapper">
@@ -21,7 +23,7 @@
             <i class="material-icons blue-text">menu </i></i
           ></a
         >
-        <ul class="hide-on-med-and-down">
+        <ul class="hide-on-med-and-down dis-flex">
           <li><a href="/" class="blue-text">Home</a></li>
           <li><a href="/users.html" class="blue-text">User Managment</a></li>
           <li><a href="https://codeyad.com" class="blue-text">Codeyad</a></li>
@@ -268,18 +270,19 @@
         <div class="pagination_buttons">
           <i
             class="material-icons blue darken-2 m-l-5 m-r-5 p-l-5 p-r-5 p-t-1 p-b-3 waves-effect waves-light white-text rounded_pill"
-            >keyboard_arrow_left
-          </i>
+            >keyboard_arrow_right</i
+          >
           <i
             class="material-icons blue darken-2 m-l-5 m-r-5 p-l-5 p-r-5 p-t-1 p-b-3 waves-effect waves-light white-text rounded_pill"
-            >keyboard_arrow_right</i
+            >keyboard_arrow_left</i
           >
         </div>
       </div>
     </section>
+
     <div class="add_user_modal_back dis-none"></div>
     <div class="add_user_modal container rounded_top_30 trans-0-2">
-      <div class="row p-l-0 p-r-40 p-t-10 p-b-10 center-on-small-only">
+      <div class="row p-l-40 p-r-40 p-t-10 p-b-10 center-on-small-only">
         <h5>
           <i class="material-icons m-l-10 m-r-10 pos-relative top-4"
             >person_add</i
